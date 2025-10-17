@@ -1,5 +1,24 @@
 "use strict";
 // ==============================================
+// FUNÇÃO PARA MOSTRAR TIPOS (BOTÃO 1)
+// ==============================================
+function mostrarTipos() {
+    const resultado = document.getElementById('resultado');
+    if (!resultado) return;
+    
+    resultado.innerHTML = `
+        <div class="animal-card">
+            <h3>📚 Tipos Básicos no TypeScript</h3>
+            <p><strong>string:</strong> Para textos ("Rex", "Gato")</p>
+            <p><strong>number:</strong> Para números (idade: 5, peso: 10.5)</p>
+            <p><strong>boolean:</strong> Para verdadeiro/falso (vacinado: true)</p>
+            <p><strong>array:</strong> Para listas ([1, 2, 3] ou ["Rex", "Thor"])</p>
+            <p><strong>object:</strong> Para dados complexos (animal, serviço)</p>
+        </div>
+    `;
+}
+
+// ==============================================
 // 1. INTERFACES - NOSSAS "FICHAS DE CADASTRO"
 // ==============================================
 // ❌ ERRO: Esquecer de preencher TODOS os campos
@@ -244,9 +263,20 @@ function mostrarEstatisticas() {
     `;
 }
 // ==============================================
-// 5. MENSAGEM INICIAL - EXECUTADA AO CARREGAR
+// 5. INICIALIZAÇÃO E EVENT LISTENERS
 // ==============================================
-console.log("🚀 Sistema PetShop carregado com sucesso!");
-console.log("🐾 Desenvolvido com TypeScript para evitar erros!");
-console.log("💡 Dica: Abra o Console (F12) para ver mensagens!");
-console.log("👉 Clique nos botões para testar as funcionalidades!");
+document.addEventListener('DOMContentLoaded', function() {
+    // Configurar event listeners
+    document.getElementById('btn-tipos')?.addEventListener('click', mostrarTipos);
+    document.getElementById('btn-animais')?.addEventListener('click', mostrarAnimais);
+    document.getElementById('btn-funcoes')?.addEventListener('click', testarFuncoes);
+    document.getElementById('btn-erros')?.addEventListener('click', mostrarErros);
+    document.getElementById('btn-cadastrar')?.addEventListener('click', cadastrarAnimal);
+
+    // Mensagens iniciais
+    console.log("🚀 Sistema PetShop carregado com sucesso!");
+    console.log("🐾 Desenvolvido com TypeScript para evitar erros!");
+    console.log("💡 Dica: Abra o Console (F12) para ver mensagens!");
+    console.log("👉 Clique nos botões para testar as funcionalidades!");
+    console.log("✅ Event listeners configurados!");
+});
