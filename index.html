@@ -29,10 +29,12 @@
         <header>
             <!-- Cabeçalho da página: normalmente inclui título, subtítulo ou nav -->
 
-            <h1>🐕‍🦺 PetShop Guardiões Animais</h1>
-            <!-- Título principal da página (deve ser único por página) -->
+            <h1 class="site-title">
+                <img src="images/logo.png" alt="PetShop Guardiões Animais" class="site-logo">
+            </h1>
+            <!-- Título principal da página substituído por logo (imagem) -->
 
-            <h2 class="subtitle">Sistema desenvolvido pelo Grupo Os Guardiões Dos Animais</h2>
+            <h2 class="subtitle">Sistema desenvolvido pelo grupo: Os Guardiões Dos Animais.</h2>
             <!-- Subtítulo/descrição breve; usei h2 para manter hierarquia semântica -->
         </header>
 
@@ -100,29 +102,8 @@
         </footer>
     </div>
 
+    <!-- Importa o script.js que contém todas as funções e configurações -->
     <script src="script.js"></script>
-    <!-- Importa o arquivo externo de JavaScript. Deve conter as funções chamadas abaixo. -->
-
-    <script>
-        // Bloco JavaScript inline para associar eventos aos botões.
-        // Preferível: manter a lógica principal em script.js, isto é só um exemplo.
-
-        // Seleciona o elemento com id 'btn-tipos' e adiciona um ouvinte de clique.
-        // Quando clicado, chama a função mostrarTipos (que precisa estar definida).
-        document.getElementById('btn-tipos').addEventListener('click', mostrarTipos);
-
-        // Seleciona o botão 'btn-animais' e associa o clique à função mostrarAnimais.
-        document.getElementById('btn-animais').addEventListener('click', mostrarAnimais);
-
-        // Seleciona o botão 'btn-funcoes' e associa o clique à função testarFuncoes.
-        document.getElementById('btn-funcoes').addEventListener('click', testarFuncoes);
-
-        // Seleciona o botão 'btn-erros' e associa o clique à função mostrarErros.
-        document.getElementById('btn-erros').addEventListener('click', mostrarErros);
-
-        // Seleciona o botão 'btn-cadastrar' e associa o clique à função cadastrarAnimal.
-        document.getElementById('btn-cadastrar').addEventListener('click', cadastrarAnimal);
-    </script>
 </body>
 
 </html>
