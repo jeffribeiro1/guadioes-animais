@@ -23,8 +23,11 @@ CSS3: Estilização responsiva com variáveis, flexbox e pseudo-elementos (style
 TypeScript: Lógica principal com interfaces e tipos (script.ts.ts).
 JavaScript: Versão transpilada para execução no navegador (script.js).
 Ferramentas Extras: Google Fonts (Quicksand), imagens locais e console para debugging.
+
 🚀 Instalação e Execução
+
 Pré-requisitos
+
 Navegador web moderno (Chrome, Firefox, etc.).
 Editor de código (VS Code recomendado) para visualizar/editar.
 Node.js e TypeScript Compiler (opcional, para compilar script.ts.ts manualmente).
@@ -48,9 +51,13 @@ Isso gera script.js a partir de script.ts.ts.
 Verificar Funcionamento:
 
 Clique nos botões na página para testar funcionalidades.
+
 Abra o console do navegador (F12) para ver logs como "Sistema PetShop carregado!".
+
 📖 Uso
+
 Como Interagir
+
 Página Inicial: Exibe cards com estatísticas (animais e serviços) e botões numerados.
 Botões Principais:
 1. Tipos Básicos: Mostra tipos TypeScript (string, number, etc.).
@@ -75,6 +82,7 @@ petshop-guardioes-animais/
 └── README.md           # Este arquivo
 
 🎥 Demonstração
+
 Abra index.html no navegador.
 Clique em "3. Testar Funções" para ver um animal criado e serviço agendado.
 Clique em "4. Ver Erros" para exemplos de bugs evitados pelo TypeScript.
@@ -82,9 +90,11 @@ Use o console para ver mensagens de inicialização.
 Para uma apresentação visual, consulte o PDF da Apresentação ou assista a um vídeo demo.
 
 🤝 Contribuição
+
 Contribuições são bem-vindas! Siga estes passos:
 
 Fork o repositório.
+
 Crie uma branch: git checkout -b feature/nova-funcionalidade.
 Faça commits: git commit -m 'Adiciona nova funcionalidade'.
 Push: git push origin feature/nova-funcionalidade.
