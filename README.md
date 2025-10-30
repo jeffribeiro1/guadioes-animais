@@ -4,6 +4,7 @@ PetShop Guardiões Dos Animais🐕‍🦺
 Um sistema web interativo para gerenciamento de petshops, desenvolvido com foco educacional em TypeScript. Demonstra como usar interfaces, tipos e funções para prevenir erros comuns em JavaScript, simulando operações reais como cadastro de animais, agendamento de serviços e geração de estatísticas.
 
 📋 Descrição
+
 Este projeto é uma aplicação front-end simples que simula um petshop. Ele foi criado pelo grupo "Os Guardiões Dos Animais" para ensinar conceitos de TypeScript em um contexto prático. Em vez de um sistema de produção, o foco é educacional: mostrar como TypeScript evita bugs como tipos incorretos ou dados incompletos, que poderiam causar problemas em um petshop real (ex.: calcular idade errada ou somar preços como strings).
 
 Objetivo Educacional: Ensinar TypeScript através de exemplos reais, prevenindo erros que aparecem em JavaScript puro.
