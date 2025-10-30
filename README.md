@@ -73,6 +73,7 @@ petshop-guardioes-animais/
 │   ├── fb-cover.jpg    # Fundo de capa
 │   └── pegadas.jpg     # Overlay de pegadas
 └── README.md           # Este arquivo
+
 🎥 Demonstração
 Abra index.html no navegador.
 Clique em "3. Testar Funções" para ver um animal criado e serviço agendado.
